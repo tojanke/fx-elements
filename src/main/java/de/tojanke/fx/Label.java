@@ -1,8 +1,6 @@
-package de.tojanke.fx.elements;
+package de.tojanke.fx;
 
 import javafx.geometry.Pos;
-
-import javax.print.DocFlavor;
 
 public class Label extends javafx.scene.control.Label {
 

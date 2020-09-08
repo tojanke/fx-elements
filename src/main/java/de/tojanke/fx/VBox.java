@@ -1,4 +1,4 @@
-package de.tojanke.fx.elements;
+package de.tojanke.fx;
 
 import javafx.geometry.Pos;
 import javafx.scene.Node;
@@ -7,7 +7,7 @@ public class VBox extends javafx.scene.layout.VBox {
 
     public VBox(int spacing, Node... n){
         this.setAlignment(Pos.CENTER);
-        this.setSpacing(spacing*GuiConfig.scale);
+        this.setSpacing(spacing* GuiConfig.scale);
         add(n);
     }
 

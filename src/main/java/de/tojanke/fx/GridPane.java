@@ -1,4 +1,4 @@
-package de.tojanke.fx.elements;
+package de.tojanke.fx;
 
 import javafx.geometry.Pos;
 import javafx.scene.layout.*;

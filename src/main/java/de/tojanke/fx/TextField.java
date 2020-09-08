@@ -1,4 +1,4 @@
-package de.tojanke.fx.elements;
+package de.tojanke.fx;
 
 
 public class TextField extends javafx.scene.control.TextField {

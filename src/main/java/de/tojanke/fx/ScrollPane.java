@@ -1,4 +1,4 @@
-package de.tojanke.fx.elements;
+package de.tojanke.fx;
 
 public class ScrollPane extends javafx.scene.control.ScrollPane {
     public ScrollPane(double width){
