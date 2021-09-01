@@ -14,15 +14,7 @@ public class Label extends javafx.scene.control.Label {
         this.setStyle(style);
         this.setMinWidth(width * GuiConfig.defaultWidth * GuiConfig.scale);
         this.setMaxWidth(width * GuiConfig.defaultWidth * GuiConfig.scale);
-
-        switch (o) {
-            case Left:
-                this.setAlignment(Pos.CENTER_LEFT);
-                break;
-            case Centered:
-            default:
-                this.setAlignment(Pos.CENTER);
-        }
+        this.setAlignment(o==Orientation.Left ? Pos.CENTER_LEFT : Pos.CENTER);        
     }
 
     public Label(String text, double width, Orientation o) {
